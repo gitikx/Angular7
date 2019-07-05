@@ -1,0 +1,16 @@
+<div class="center">
+  <app-filter-component *ngIf="showFilter" (onFilter)="onFilter($event)"></app-filter-component>
+</div>
+<div class="output" [ngClass]='{"minimized":showFilter, "maximized": !showFilter}'>
+  <div *ngFor="let item of items; let index = index" class="repeatElement">
+    <span class="status" [ngStyle]='{"background-color": item.color}' title="{{item.color | translate}}"></span>
+    <span class="stringBlock" title="{{item.label}}">{{item.label}}</span>
+    <div class="btnsBlock">
+      <div class="ico delete" (click)="delete(index)" title="{{'REMOVE'|translate}}"></div>
+    </div>
+    <div class="btnsBlock">
+      <div class="ico refresh" (click)="refresh(index)" title="{{'REFRESH'|translate}}"></div>
+    </div>
+  </div>
+  <div class="alert" *ngIf="!items.length">{{"NOELEMENTS" | translate}}</div>
+</div>

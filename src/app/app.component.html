@@ -1,0 +1,11 @@
+<div class="topLine">
+  <div class="topText">{{"HELLO" | translate}}, {{name}}!</div>
+</div>
+<app-settings-component *ngIf="showSetting" [languages]="languages" [language]="language" [name]="name"
+  (onSetted)="changeSettingState()" (onChanged)="changeSettings($event)"></app-settings-component>
+<div class="appComponent">
+  <app-input-component (onFilterShown)="showFilter()" (onAdded)="onAdded($event)"></app-input-component>
+  <app-output-component [showFilter]="showFilterParameter" [items]="items" (onFiltered)="onFiltered($event)"
+    (onDeleted)="onDeleted($event)" (onChanged)="onChanged($event)"></app-output-component>
+</div>
+<div class="settingButton" (click)="changeSettingState()" title="{{'SETTINGS' | translate}}"></div>

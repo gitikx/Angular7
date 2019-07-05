@@ -1,0 +1,11 @@
+body{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    overflow: hidden;
+    height: 100%;
+}
+
+html {
+   height: 100%;
+}

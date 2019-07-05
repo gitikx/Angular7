@@ -1,0 +1,102 @@
+.status {
+    background-color: green;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-color: yellow;
+    border-width: 2px;
+}
+
+.stringBlock {
+    font-weight: 700;
+    z-index: 990;
+    max-width: 400px;
+    height: 70px;
+    font-size: 32px;
+    color: white;
+    bottom: 30px;
+    position: absolute;
+    top: 17px;
+    margin-left: 40px;
+    cursor: default;
+}
+
+.alert {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.string {
+    width: 600px;
+    margin-left: 90px;
+    display: inline-block;
+    font-size: 28px;
+    color: white;
+}
+
+.btnsBlock {
+    display: inline-block;
+    width: 60px;
+    height: 70px;
+}
+
+.ico {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    margin-top: 0px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.delete {
+    background-image: url('./resources/delete.png');
+    margin-left: 570px;
+}
+
+.refresh {
+    background-image: url('./resources/refresh.png');
+    margin-left: 450px;
+}
+
+.output {
+    overflow-y: auto;
+    margin-top: 18px;
+}
+
+.minimized {
+    height: 82.5vh;
+}
+
+.maximized {
+    height: 89vh;
+}
+
+.repeatElement {
+    position: relative;
+    height: 70px;
+    margin-top: 10px;
+    background-color: #1D7373;
+    animation-name: slideAndOpacity;
+    animation-duration: 200ms;
+    border-radius: 30px;
+}
+
+@keyframes slideAndOpacity {
+    from {
+        margin-top: 0px;
+        opacity: 0;
+    }
+    to {
+        margin-top: 10px;
+        opacity: 1;
+    }
+}
+
+.center {
+    text-align: center;
+}

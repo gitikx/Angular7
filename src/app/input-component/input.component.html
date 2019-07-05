@@ -1,0 +1,7 @@
+<form>
+      <span class="filterBtn" (click)="showFilter()"></span>
+      <span class="main">
+            <input type="text" class="inputTxt" [(ngModel)]="input" name="inputTxt" maxlength="15">
+            <button class="submitBtn" (click)="add()">{{"ADD" | translate}}</button>
+      </span>
+</form>

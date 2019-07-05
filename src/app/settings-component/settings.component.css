@@ -1,0 +1,87 @@
+.blackBack {
+    position: absolute;
+    z-index: 997;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+    animation-name: opacity;
+    animation-duration: 400ms;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.7;
+    }
+}
+
+.inputname {
+    border-color: rgb(148, 148, 241);
+    font-size: 20px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: 0;
+    text-align: center;
+}
+
+.applyBtn{
+    border-width: 0px;
+    border-radius: 30px;
+    background-color: #1976d2;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 140px;
+}
+
+
+.Btn{
+    width: 140px;
+    margin-top: 570px;
+    border-width: 0px;
+    border-radius: 30px;
+    background-color: #1976d2;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+    font-size: 40px;
+}
+
+.whiteFront {
+    position: absolute;
+    z-index: 999;
+    background-color: white;
+    margin-top: 42px;
+    width: 300px;
+    height: 100%;
+    right: 0px;
+    animation-name: fromRight;
+    animation-duration: 400ms;
+}
+
+@keyframes fromRight {
+    from {
+        right: -300px;
+    }
+    to {
+        right: 0px;
+    }
+}

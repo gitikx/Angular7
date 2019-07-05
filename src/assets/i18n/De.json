@@ -1,0 +1,20 @@
+{
+    "HELLO" : "Hallo",
+    "NOELEMENTS" : "Es gibt keine elemente",
+    "green" : "Frisch",
+    "red" : "Faul",
+    "yellow" : "Gelb",
+    "SETTINGS" : " Einstellungen",
+    "NAME" : "Name",
+    "LANG" : "Sprache",
+    "APPLY" : "Sich bewerben",
+    "CANCEL" : "Stornieren",
+    "REMOVE" : "Löschen",
+    "REFRESH" : "Aktualisierung",
+    "ADD" : "Hinzufügen",
+    "NODIGITS" : "Es gibt keine ziffern",
+    "CLEAN" : "Sauber",
+    "Ru" : "Russisch",
+    "En" : "Englisch",
+    "De" : "Deustch"
+}

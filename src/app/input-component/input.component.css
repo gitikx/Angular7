@@ -1,0 +1,55 @@
+.main {
+    margin-left: 150px;
+}
+
+.inputTxt {
+    border-color: rgb(148, 148, 241);
+    font-size: 25px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: 0;
+    max-width: 400px;
+}
+
+.filterBtn{
+    background-image: url('../resources/filter.svg');
+    background-size: contain;
+    width: 35px;
+    height: 38px;
+    display: inline-block;
+    position: absolute;  
+    margin-left: 90px;
+}
+
+.filterBtn:hover{
+    cursor: pointer;
+}
+
+.submitBtn {
+    width: 130px;
+    height: auto;
+    border-width: 0px;
+    border-radius: 30px;
+    background-color: #1976d2;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.submitBtn:focus{
+    outline: 0;
+}
+
+.submitBtn:hover{
+    background-color: #0b58a5;
+    cursor: pointer;
+}
+
+.inputTxt:focus {
+    transition: 300ms;
+    border-color: rgb(31, 31, 214);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}

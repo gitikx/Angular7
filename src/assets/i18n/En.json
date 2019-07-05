@@ -1,0 +1,20 @@
+{
+    "HELLO" : "Hi",
+    "NOELEMENTS" : "There are no elements",
+    "green" : "Fresh",
+    "red" : "Rotten",
+    "yellow" : "Lain",
+    "SETTINGS" : "Settings",
+    "NAME" : "Name",
+    "LANG" : "Language",
+    "APPLY" : "Apply",
+    "CANCEL" : "Cancel",
+    "REMOVE" : "Remove",
+    "REFRESH" : "Refresh",
+    "ADD" : "Add",
+    "NODIGITS" : "There are no digits",
+    "CLEAN" : "Clean",
+    "Ru" : "Russian",
+    "En" : "English",
+    "De" : "Deustch"
+}
